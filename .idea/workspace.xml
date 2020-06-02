@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="41a93ae0-2bf6-4818-81e4-f96bbd723c41" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1cmB64ktqLPXKh19IKUiuqXydQ1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41a93ae0-2bf6-4818-81e4-f96bbd723c41" name="Default Changelist" comment="" />
+      <created>1591123709665</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591123709665</updated>
+      <workItem from="1591123711248" duration="1517000" />
+      <workItem from="1591126834828" duration="3818000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add README.md">
+      <created>1591124186300</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591124186300</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Npm init files">
+      <created>1591124420410</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591124420410</updated>
+    </task>
+    <task id="LOCAL-00003" summary="dep: add details to .gitignore">
+      <created>1591126693720</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591126693720</updated>
+    </task>
+    <task id="LOCAL-00004" summary="remove node_modules/">
+      <created>1591127067811</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591127067811</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add app.js">
+      <created>1591127422250</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591127422250</updated>
+    </task>
+    <task id="LOCAL-00006" summary="src: add app.js">
+      <created>1591129097600</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591129097600</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add eslint">
+      <created>1591129120177</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591129120177</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add start script">
+      <created>1591129856469</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591129856469</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add: lint &amp; nodemon script">
+      <created>1591130581473</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591130581473</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add README.md" />
+    <MESSAGE value="Npm init files" />
+    <MESSAGE value="dep: add details to .gitignore" />
+    <MESSAGE value="remove node_modules/" />
+    <MESSAGE value="add app.js" />
+    <MESSAGE value="src: add app.js" />
+    <MESSAGE value="add eslint" />
+    <MESSAGE value="add start script" />
+    <MESSAGE value="add: lint &amp; nodemon script" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: lint &amp; nodemon script" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="478" y="250" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591124642413">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="478" y="250" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1591124642413" />
+    <state x="344" y="0" key="CommitChangelistDialog2" timestamp="1591130581325">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="344" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1591130581325" />
+  </component>
+</project>
