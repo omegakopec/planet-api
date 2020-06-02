@@ -1,0 +1,23 @@
+{
+  "name": "planet-api",
+  "version": "1.0.0",
+  "description": "Project to create an API providing data about our solar system.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omegakopec/planet-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omegakopec/planet-api/issues"
+  },
+  "homepage": "https://github.com/omegakopec/planet-api#readme"
+}
