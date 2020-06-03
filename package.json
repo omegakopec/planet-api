@@ -4,7 +4,9 @@
   "description": "Project to create an API providing data about our solar system.",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "moment": "^2.26.0",
+    "winston": "^3.2.1"
   },
   "devDependencies": {
     "eslint": "^7.1.0"
