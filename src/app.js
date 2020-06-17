@@ -1,16 +1,29 @@
-const express = require("express")
-const logger = require("./util/logger.util")
-const dateUtil = require("./util/date.util")
+const express = require('express')
+const logger = require('./util/logger.util')
+const mongoose = require('mongoose')
+const bodyParser = require('body-parser')
+const dateUtil = require('./util/date.util')
+
+require('dotenv').config()
+
+// Routes
+const planetRoutes = require('./routes/planets')
+const moonRoutes = require('./routes/moons')
 
 const app = express()
 const port = 3000
 
-app.get("/", (req, res) =>(
-  logger.info(`Request to / at ${dateUtil.format(Date.now())}`),
-  res.send("Welcome to the Planets API"))
-)
+app.use(bodyParser.json())
 
-app.listen(port, () => (
-  logger.info(`Starting server on port : ${port}`),
-  logger.info(dateUtil.format(Date.now())))
-)
+const connectDB = async () => {
+  await mongoose.connect(process.env.DB_CONNECTION,
+    { useNewUrlParser: true, useUnifiedTopology: true })
+  logger.info('Established Connection', dateUtil.format(Date.now()))
+}
+
+connectDB().then()
+
+app.use('/planets', planetRoutes)
+app.use('/moons', moonRoutes)
+
+app.listen(port)
