@@ -4,12 +4,22 @@
   "description": "Project to create an API providing data about our solar system.",
   "main": "index.js",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "moment": "^2.26.0",
+    "mongodb": "^3.5.8",
+    "mongoose": "^5.9.19",
     "winston": "^3.2.1"
   },
   "devDependencies": {
-    "eslint": "^7.1.0"
+    "eslint": "^7.1.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "pre-commit": "^1.2.2"
   },
   "scripts": {
     "lint": "eslint --fix 'src/app.js'",
@@ -17,11 +27,14 @@
     "start": "node 'src/app.js'",
     "nodemon": "nodemon 'src/app.js'"
   },
+  "pre-commit": [
+    "lint-no-fix"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/omegakopec/planet-api.git"
   },
-  "author": "",
+  "author": "Omegakopec",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/omegakopec/planet-api/issues"
