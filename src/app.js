@@ -2,14 +2,14 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const logger = require('./util/logger.util')
 const dateUtil = require('./util/date.util')
-const mongoDBStorage = require('./storage/mongodb')
+const mongoDBConnection = require('./storage/mongodb')
 
 // Routes
 const planetRoutes = require('./routes/planets')
 const moonRoutes = require('./routes/moons')
 
 // DB Connections
-mongoDBStorage.connection()
+mongoDBConnection()
 
 const app = express()
 const PORT = 3000
