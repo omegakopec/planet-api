@@ -1,29 +1,23 @@
 const express = require('express')
-const logger = require('./util/logger.util')
-const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
+const logger = require('./util/logger.util')
 const dateUtil = require('./util/date.util')
-
-require('dotenv').config()
+const mongoDBStorage = require('./storage/mongodb')
 
 // Routes
 const planetRoutes = require('./routes/planets')
 const moonRoutes = require('./routes/moons')
 
+// DB Connections
+mongoDBStorage.connection()
+
 const app = express()
-const port = 3000
-
-app.use(bodyParser.json())
-
-const connectDB = async () => {
-  await mongoose.connect(process.env.DB_CONNECTION,
-    { useNewUrlParser: true, useUnifiedTopology: true })
-  logger.info('Established Connection', dateUtil.format(Date.now()))
-}
-
-connectDB().then()
-
+const PORT = 3000
 app.use('/planets', planetRoutes)
 app.use('/moons', moonRoutes)
+app.use(bodyParser.json())
 
-app.listen(port)
+app.listen(PORT, () => {
+  logger.info(`Starting Server On Port ${PORT}`)
+  logger.info(dateUtil.format(Date.now()))
+})
