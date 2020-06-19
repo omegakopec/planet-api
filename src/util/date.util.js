@@ -2,7 +2,6 @@ const moment = require('moment')
 
 class DateUtil{
   /**
-   *
    * @param {string} value
    * @param {string}format
    * @returns {string}
