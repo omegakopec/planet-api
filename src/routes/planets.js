@@ -22,10 +22,18 @@ router.get('/:planetName', async (req, res) =>{
 })
 
 router.post('/', async (req, res) => {
-  const planet= new planets({
+  const planet = new planets({
     name: req.body.name,
     number_of_moons: req.body.number_of_moons,
-    mass: req.body.mass
+    mass: req.body.mass,
+    density: req.body.density,
+    star_name: req.body.star_name,
+    average_distance: req.body.average_distance,
+    perihelion: req.body.perihelion,
+    aphelion: req.body.aphelion,
+    average_temperature: req.body.average_temperature,
+    temperature_high: req.body.temperature_high,
+    temperature_low: req.body.temperature_low
   });
 
   try {
@@ -44,6 +52,15 @@ router.delete('/:ID', async (req, res) => {
   }
   catch (err) {
     res.json({ message: err})
+  }
+})
+
+router.patch('/:ID', async (req,res) => {
+  try{
+
+  }
+  catch (err){
+    res.json({message: err})
   }
 })
 
