@@ -9,7 +9,7 @@ const PlanetSchema = mongoose.Schema({
   mass: String,
   density: String,
   star_name: String,
-  average_distance: Number,
+  average_distance: String,
   perihelion: String,
   aphelion: String,
   average_temperature: Number,
