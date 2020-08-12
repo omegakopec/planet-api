@@ -7,6 +7,7 @@
     "body-parser": "1.19.0",
     "dotenv": "8.2.0",
     "express": "4.17.1",
+    "lint": "^0.7.0",
     "moment": "2.26.0",
     "mongodb": "3.5.8",
     "mongoose": "5.9.19",
@@ -27,7 +28,9 @@
     "start": "node 'src/app.js'",
     "nodemon": "nodemon 'src/app.js'"
   },
-  "pre-commit": [ "lint" ],
+  "pre-commit": [
+    "lint"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/omegakopec/planet-api.git"
