@@ -4,11 +4,12 @@ require('dotenv').config()
 
 const MongoDBConnection = async () => {
     try {
-      const connection = await mongoose.connect(process.env.MONGO_URI,{
+      logger.info("Attempting Connection...")
+      mongoose.connect(process.env.MONGO_URI,{
         useNewUrlParser: true,
         useUnifiedTopology: true,
         useFindAndModify: false})
-      logger.info(`MongoDB connection established: ${connection.connection.host}`)
+      logger.info("MongoDB connection established")
     }catch (err) {
       logger.error(err)
       process.exit(1)
