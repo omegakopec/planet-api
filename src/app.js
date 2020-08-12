@@ -8,7 +8,7 @@ const mongoDBConnection = require('./storage/mongodb')
 const planetRoutes = require('./routes/planets')
 const moonRoutes = require('./routes/moons')
 
-// DB Connections
+// DB Connection
 mongoDBConnection()
 
 const app = express()
